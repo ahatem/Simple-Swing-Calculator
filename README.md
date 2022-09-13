@@ -2,7 +2,8 @@
 
 Simple swing calculator with simple math expression parser
 
-![Screenshot](/images/1.png?raw=true)
+![Screenshot Dark](/images/1.png?raw=true)
+![Screenshot Light](/images/2.png?raw=true)
 
 ---
 

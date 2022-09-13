@@ -28,7 +28,7 @@ public class ExpressionParser {
         // empty spaces in " %c " are important cuz we use it to split the expression into tokens (in buildExpression)
         while (stack.peek() != '(')
           postfixExpression.append(" %c ".formatted(stack.pop()));
-        stack.pop();
+        stack.pop(); // to pop '('
       } else {
         while (!stack.isEmpty() && (priority(character) <= priority(stack.peek())))
           postfixExpression.append(" %c ".formatted(stack.pop()));
